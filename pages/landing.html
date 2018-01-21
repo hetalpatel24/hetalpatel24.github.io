@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Visualization Dashboard</title>
+  <!-- <link rel="stylesheet" type="text/css" href="style.css">-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+    h1{
+    background-color: rgb(7, 107, 107);
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 60px;
+    
+}
+
+    
+
+</style>
+</head>
+
+<body style="background-color:lightgray;">
+         
+    <div class="row" style="background-color:white;">
+        <div class="navbar-header">
+            <div class="col-sm-12" >
+                <h1 class="navbar-brand">Latitude</h1>
+                <ul class="nav navbar-nav" style="padding-left:800px;">            
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                                <li><a href="#">Max Temprature</a></li>
+                                <li><a href="#">Humidity</a></li>
+                                <li><a href="#">Cloudiness</a></li>
+                                <li><a href="#">Windspeed</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Comparison</a></li>
+                    <li><a href="#">Data</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6" style="background-color:white;">
+                <h2 style="color: rgb(7, 107, 107); font-size:25px; font-family: 'Times New Roman';">Summary: Latitude vs. X</h2>
+                <img src="Fig1.png" alt="Latitude vs. Max Temprature" width="300px" height="200px">
+            </div>
+            
+            <div class="col-sm-6" style="background-color:white;">
+                <h2 style="color: rgb(7, 107, 107); font-size:25px; font-family: 'Times New Roman';">Visulizations</h2>
+                
+                <div class="row">
+                    <div class="col-sm-3" style="margin:30px 50px 10px 20px;"><img src="Fig1.png" alt="Latitude vs. Max Temprature" width="240px" height="190px"></div>
+                    <div class="col-sm-3" style="margin:30px 30px 10px 40px;"><img src="Fig2.png" alt="Latitude vs. Max Temprature" width="240px" height="190px"></div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-sm-3" style="margin:20px 50px 20px 20px;"><img src="Fig1.png" alt="Latitude vs. Max Temprature" width="240px" height="190px"></div>
+                    <div class="col-sm-3" style="margin:20px 30px 20px 40px;"><img src="Fig2.png" alt="Latitude vs. Max Temprature" width="240px" height="190px"></div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
